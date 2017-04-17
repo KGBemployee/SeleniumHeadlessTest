@@ -1,3 +1,4 @@
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -29,6 +30,10 @@ public class SeleniumHeadlessTest2 {
         driver.findElement(By.xpath(".//a[@title='Politic']")).click();
         driver.findElement(By.xpath("(.//a[contains(@title,'Mesajul lui Klaus Iohannis de Paste pentru romanii din tara si din diaspora. Ce urari au publicat pe Facebook politicienii')])[1]")).click();
         Assert.assertTrue("the page title is not as expected", driver.getTitle().contains("Mesajul lui Klaus Iohannis de Paste "));
+    }
+
+    @After
+    public void tearDown() throws Exception {
         driver.quit();
     }
 }
