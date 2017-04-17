@@ -20,7 +20,7 @@ public class SeleniumTest1 {
     }
 
     @Test
-    public void testPage(){
+    public void testHtmlUnitDriver(){
         driver.get("http://www.seleniumhq.org/");
         driver.findElement(By.xpath(".//a[@title='Technical references and guides']")).click();
         Assert.assertTrue("the page title is not as expected", driver.getTitle().contains("Selenium Documentation "));

@@ -176,93 +176,67 @@
 [INFO  - 2017-04-17T12:04:47.354Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-17T12:09:47.359Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-17T12:14:47.359Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-48.513Z] Session [11c4e0b0-235f-11e7-85b9-553a67bec002] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-04-17T11:14:48.513Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 11c4e0b0-235f-11e7-85b9-553a67bec002
-[ERROR - 2017-04-17T11:14:51.147Z] Session [11c4e0b0-235f-11e7-85b9-553a67bec002] - page.onError - msg: TypeError: null is not an object (evaluating 'f.parentNode.insertBefore')
-[ERROR - 2017-04-17T11:14:51.147Z] Session [11c4e0b0-235f-11e7-85b9-553a67bec002] - page.onError - stack:
-  l (http://stirileprotv.ro/:1)
-[ERROR - 2017-04-17T11:14:52.807Z] Session [11c4e0b0-235f-11e7-85b9-553a67bec002] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.a.re')
-[ERROR - 2017-04-17T11:14:52.808Z] Session [11c4e0b0-235f-11e7-85b9-553a67bec002] - page.onError - stack:
-  ha (http://static.chartbeat.com/js/chartbeat_video.js:83)
-  S (http://static.chartbeat.com/js/chartbeat_video.js:81)
-  J (http://static.chartbeat.com/js/chartbeat_video.js:110)
-  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
-  Bb (http://static.chartbeat.com/js/chartbeat_video.js:25)
-  L (http://static.chartbeat.com/js/chartbeat_video.js:36)
-  Qc (http://static.chartbeat.com/js/chartbeat_video.js:109)
-  md (http://static.chartbeat.com/js/chartbeat_video.js:129)
-  ld (http://static.chartbeat.com/js/chartbeat_video.js:127)
-  vd (http://static.chartbeat.com/js/chartbeat_video.js:127)
-  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
-  wc (http://static.chartbeat.com/js/chartbeat_video.js:130)
-  hd (http://static.chartbeat.com/js/chartbeat_video.js:126)
-  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:133)
-[ERROR - 2017-04-17T11:14:54.558Z] Session [11c4e0b0-235f-11e7-85b9-553a67bec002] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Win.document.URL')
-[ERROR - 2017-04-17T11:14:54.558Z] Session [11c4e0b0-235f-11e7-85b9-553a67bec002] - page.onError - stack:
-  PreInit (http://content.adservingfactory.com/LibBE.js:1)
-  (anonymous function) (http://content.adservingfactory.com/LibBE.js:1)
-[ERROR - 2017-04-17T11:14:55.557Z] Session [11c4e0b0-235f-11e7-85b9-553a67bec002] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.a.re')
-[ERROR - 2017-04-17T11:14:55.558Z] Session [11c4e0b0-235f-11e7-85b9-553a67bec002] - page.onError - stack:
-  ha (http://static.chartbeat.com/js/chartbeat_video.js:83)
-  S (http://static.chartbeat.com/js/chartbeat_video.js:81)
-  J (http://static.chartbeat.com/js/chartbeat_video.js:110)
-  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
-  Bb (http://static.chartbeat.com/js/chartbeat_video.js:25)
-  L (http://static.chartbeat.com/js/chartbeat_video.js:36)
-  Qc (http://static.chartbeat.com/js/chartbeat_video.js:109)
-  md (http://static.chartbeat.com/js/chartbeat_video.js:129)
-  ld (http://static.chartbeat.com/js/chartbeat_video.js:127)
-  vd (http://static.chartbeat.com/js/chartbeat_video.js:127)
-  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
-  wc (http://static.chartbeat.com/js/chartbeat_video.js:130)
-  hd (http://static.chartbeat.com/js/chartbeat_video.js:126)
-  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:133)
-[INFO  - 2017-04-17T11:14:55.587Z] ShutdownReqHand - _handle - About to shutdown
-[INFO  - 2017-04-17T11:44:41.927Z] GhostDriver - Main - running on port 35188
-[INFO  - 2017-04-17T11:44:42.553Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-04-17T11:44:42.553Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.customHeaders:  - {}
-[INFO  - 2017-04-17T11:44:42.554Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-04-17T11:44:42.554Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3f19f650-2363-11e7-b83f-cbf3b38bea94
-[ERROR - 2017-04-17T11:44:44.564Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.onError - msg: TypeError: null is not an object (evaluating 'f.parentNode.insertBefore')
-[ERROR - 2017-04-17T11:44:44.565Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.onError - stack:
-  l (http://stirileprotv.ro/:1)
-[ERROR - 2017-04-17T11:44:46.881Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.a.re')
-[ERROR - 2017-04-17T11:44:46.881Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.onError - stack:
-  ha (http://static.chartbeat.com/js/chartbeat_video.js:83)
-  S (http://static.chartbeat.com/js/chartbeat_video.js:81)
-  J (http://static.chartbeat.com/js/chartbeat_video.js:110)
-  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
-  Bb (http://static.chartbeat.com/js/chartbeat_video.js:25)
-  L (http://static.chartbeat.com/js/chartbeat_video.js:36)
-  Qc (http://static.chartbeat.com/js/chartbeat_video.js:109)
-  md (http://static.chartbeat.com/js/chartbeat_video.js:129)
-  ld (http://static.chartbeat.com/js/chartbeat_video.js:127)
-  vd (http://static.chartbeat.com/js/chartbeat_video.js:127)
-  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
-  wc (http://static.chartbeat.com/js/chartbeat_video.js:130)
-  hd (http://static.chartbeat.com/js/chartbeat_video.js:126)
-  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:133)
-[ERROR - 2017-04-17T11:44:48.851Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Win.document.URL')
-[ERROR - 2017-04-17T11:44:48.851Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.onError - stack:
-  PreInit (http://content.adservingfactory.com/LibBE.js:1)
-  (anonymous function) (http://content.adservingfactory.com/LibBE.js:1)
-[ERROR - 2017-04-17T11:44:50.319Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.a.re')
-[ERROR - 2017-04-17T11:44:50.319Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.onError - stack:
-  ha (http://static.chartbeat.com/js/chartbeat_video.js:83)
-  S (http://static.chartbeat.com/js/chartbeat_video.js:81)
-  J (http://static.chartbeat.com/js/chartbeat_video.js:110)
-  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
-  Bb (http://static.chartbeat.com/js/chartbeat_video.js:25)
-  L (http://static.chartbeat.com/js/chartbeat_video.js:36)
-  Qc (http://static.chartbeat.com/js/chartbeat_video.js:109)
-  md (http://static.chartbeat.com/js/chartbeat_video.js:129)
-  ld (http://static.chartbeat.com/js/chartbeat_video.js:127)
-  vd (http://static.chartbeat.com/js/chartbeat_video.js:127)
-  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
-  wc (http://static.chartbeat.com/js/chartbeat_video.js:130)
-  hd (http://static.chartbeat.com/js/chartbeat_video.js:126)
-  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:133)
-[INFO  - 2017-04-17T11:44:50.660Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-04-17T12:19:47.359Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T12:24:47.359Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T12:29:47.359Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T12:34:47.359Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T12:39:47.359Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T12:44:47.359Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T12:49:47.359Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T12:54:47.359Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T12:59:47.359Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T13:04:47.359Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T13:09:47.359Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T13:14:47.361Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T13:19:47.361Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T13:24:47.367Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T13:29:47.367Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T13:34:47.367Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T13:39:47.368Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T13:44:47.368Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T13:49:47.367Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T13:54:47.368Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T13:59:47.367Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T14:04:47.368Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T14:09:47.373Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T14:14:47.374Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T14:19:47.374Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T14:24:47.374Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T14:29:47.375Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T14:34:47.377Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T14:39:47.377Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T14:44:47.378Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T14:49:47.378Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T14:54:47.378Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T14:59:47.382Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T15:04:47.382Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T15:09:47.382Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T15:14:47.382Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T15:19:47.382Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T15:24:47.383Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T15:29:47.394Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T15:34:47.395Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T15:39:47.395Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T15:44:47.395Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T15:49:47.396Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T15:54:47.395Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T15:59:47.396Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T16:04:47.396Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T16:09:47.396Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T16:14:47.410Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T16:19:47.410Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T16:24:47.411Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T16:29:47.420Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T16:34:47.423Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T16:39:47.423Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T16:44:47.425Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T16:49:47.425Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T16:54:47.426Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T16:59:47.428Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T17:04:47.427Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T17:09:47.434Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T17:14:47.434Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ReqHand - _handle - About to shutdown
 [INFO  - 2017-04-17T12:12:03.346Z] GhostDriver - Main - running on port 2980
 [INFO  - 2017-04-17T12:12:03.590Z] Session [113c2f10-2367-11e7-bfc0-81dcbbda502e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
 [INFO  - 2017-04-17T12:12:03.590Z] Session [113c2f10-2367-11e7-bfc0-81dcbbda502e] - page.customHeaders:  - {}
