@@ -18,7 +18,7 @@ public class SeleniumTest1 {
         driver.get("http://stirileprotv.ro");
         driver.findElement(By.xpath(".//a[@title='Politic']")).click();
         driver.findElement(By.xpath("(.//a[contains(@title,'Mesajul lui Klaus Iohannis de Paste pentru romanii din tara si din diaspora. Ce urari au publicat pe Facebook politicienii')])[1]")).click();
-        Assert.assertTrue("the page title is not as expected", driver.getTitle().contains("Mesajul lui Klaus Iohannis de Paste "));
+        Assert.assertTrue("the page title does not equal expected", driver.getTitle().contains("Mesajul lui Klaus Iohannis de Paste "));
         driver.quit();
     }
 }
