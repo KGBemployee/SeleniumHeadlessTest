@@ -19,7 +19,7 @@ public class SeleniumHeadlessTest2 {
         caps.setJavascriptEnabled(true);
         caps.setCapability(
                 PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
-                "C:/Users/Alex/Downloads/phantomjs-2.1.1-windows/phantomjs-2.1.1-windows/bin/phantomjs.exe"
+                "src/main/resources/phantomjs-2.1.1-windows/phantomjs-2.1.1-windows/bin/phantomjs.exe"
         );
         driver = new PhantomJSDriver(caps);
     }

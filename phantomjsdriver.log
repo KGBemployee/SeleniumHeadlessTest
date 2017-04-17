@@ -164,20 +164,13 @@
 [INFO  - 2017-04-17T11:04:47.346Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-17T11:09:47.347Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-17T11:14:47.346Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-1e7-b4cb-cb53031975f6] - page.onError - stack:
-  ha (http://static.chartbeat.com/js/chartbeat_video.js:83)
-  S (http://static.chartbeat.com/js/chartbeat_video.js:81)
-  J (http://static.chartbeat.com/js/chartbeat_video.js:110)
-  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
-  Bb (http://static.chartbeat.com/js/chartbeat_video.js:25)
-  L (http://static.chartbeat.com/js/chartbeat_video.js:36)
-  Qc (http://static.chartbeat.com/js/chartbeat_video.js:109)
-  md (http://static.chartbeat.com/js/chartbeat_video.js:129)
-  ld (http://static.chartbeat.com/js/chartbeat_video.js:127)
-  vd (http://static.chartbeat.com/js/chartbeat_video.js:127)
-  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
-  wc (http://static.chartbeat.com/js/chartbeat_video.js:130)
-  hd (http://static.chartbeat.com/js/chartbeat_video.js:126)
+[INFO  - 2017-04-17T11:19:47.347Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T11:24:47.347Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T11:29:47.349Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T11:34:47.352Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T11:39:47.354Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T11:44:47.353Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+tbeat.com/js/chartbeat_video.js:126)
   (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:133)
 [INFO  - 2017-04-17T09:11:33.905Z] ShutdownReqHand - _handle - About to shutdown
 [INFO  - 2017-04-17T11:14:48.305Z] GhostDriver - Main - running on port 2634
@@ -225,3 +218,48 @@
   hd (http://static.chartbeat.com/js/chartbeat_video.js:126)
   (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:133)
 [INFO  - 2017-04-17T11:14:55.587Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-04-17T11:44:41.927Z] GhostDriver - Main - running on port 35188
+[INFO  - 2017-04-17T11:44:42.553Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-17T11:44:42.553Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.customHeaders:  - {}
+[INFO  - 2017-04-17T11:44:42.554Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-17T11:44:42.554Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3f19f650-2363-11e7-b83f-cbf3b38bea94
+[ERROR - 2017-04-17T11:44:44.564Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.onError - msg: TypeError: null is not an object (evaluating 'f.parentNode.insertBefore')
+[ERROR - 2017-04-17T11:44:44.565Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.onError - stack:
+  l (http://stirileprotv.ro/:1)
+[ERROR - 2017-04-17T11:44:46.881Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.a.re')
+[ERROR - 2017-04-17T11:44:46.881Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.onError - stack:
+  ha (http://static.chartbeat.com/js/chartbeat_video.js:83)
+  S (http://static.chartbeat.com/js/chartbeat_video.js:81)
+  J (http://static.chartbeat.com/js/chartbeat_video.js:110)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
+  Bb (http://static.chartbeat.com/js/chartbeat_video.js:25)
+  L (http://static.chartbeat.com/js/chartbeat_video.js:36)
+  Qc (http://static.chartbeat.com/js/chartbeat_video.js:109)
+  md (http://static.chartbeat.com/js/chartbeat_video.js:129)
+  ld (http://static.chartbeat.com/js/chartbeat_video.js:127)
+  vd (http://static.chartbeat.com/js/chartbeat_video.js:127)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
+  wc (http://static.chartbeat.com/js/chartbeat_video.js:130)
+  hd (http://static.chartbeat.com/js/chartbeat_video.js:126)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:133)
+[ERROR - 2017-04-17T11:44:48.851Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Win.document.URL')
+[ERROR - 2017-04-17T11:44:48.851Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.onError - stack:
+  PreInit (http://content.adservingfactory.com/LibBE.js:1)
+  (anonymous function) (http://content.adservingfactory.com/LibBE.js:1)
+[ERROR - 2017-04-17T11:44:50.319Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.a.re')
+[ERROR - 2017-04-17T11:44:50.319Z] Session [3f19f650-2363-11e7-b83f-cbf3b38bea94] - page.onError - stack:
+  ha (http://static.chartbeat.com/js/chartbeat_video.js:83)
+  S (http://static.chartbeat.com/js/chartbeat_video.js:81)
+  J (http://static.chartbeat.com/js/chartbeat_video.js:110)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
+  Bb (http://static.chartbeat.com/js/chartbeat_video.js:25)
+  L (http://static.chartbeat.com/js/chartbeat_video.js:36)
+  Qc (http://static.chartbeat.com/js/chartbeat_video.js:109)
+  md (http://static.chartbeat.com/js/chartbeat_video.js:129)
+  ld (http://static.chartbeat.com/js/chartbeat_video.js:127)
+  vd (http://static.chartbeat.com/js/chartbeat_video.js:127)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
+  wc (http://static.chartbeat.com/js/chartbeat_video.js:130)
+  hd (http://static.chartbeat.com/js/chartbeat_video.js:126)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:133)
+[INFO  - 2017-04-17T11:44:50.660Z] ShutdownReqHand - _handle - About to shutdown
