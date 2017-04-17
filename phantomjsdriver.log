@@ -88,3 +88,99 @@
   hd (http://static.chartbeat.com/js/chartbeat_video.js:126)
   (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:133)
 [INFO  - 2017-04-17T08:50:27.790Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-04-17T09:09:20.456Z] GhostDriver - Main - running on port 46376
+[INFO  - 2017-04-17T09:09:20.651Z] Session [8ad07260-234d-11e7-be29-792b51b68fcb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-17T09:09:20.651Z] Session [8ad07260-234d-11e7-be29-792b51b68fcb] - page.customHeaders:  - {}
+[INFO  - 2017-04-17T09:09:20.651Z] Session [8ad07260-234d-11e7-be29-792b51b68fcb] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-17T09:09:20.652Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8ad07260-234d-11e7-be29-792b51b68fcb
+[ERROR - 2017-04-17T09:09:22.956Z] Session [8ad07260-234d-11e7-be29-792b51b68fcb] - page.onError - msg: TypeError: null is not an object (evaluating 'f.parentNode.insertBefore')
+[ERROR - 2017-04-17T09:09:22.956Z] Session [8ad07260-234d-11e7-be29-792b51b68fcb] - page.onError - stack:
+  l (http://stirileprotv.ro/:1)
+[ERROR - 2017-04-17T09:09:24.430Z] Session [8ad07260-234d-11e7-be29-792b51b68fcb] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.a.re')
+[ERROR - 2017-04-17T09:09:24.430Z] Session [8ad07260-234d-11e7-be29-792b51b68fcb] - page.onError - stack:
+  ha (http://static.chartbeat.com/js/chartbeat_video.js:83)
+  S (http://static.chartbeat.com/js/chartbeat_video.js:81)
+  J (http://static.chartbeat.com/js/chartbeat_video.js:110)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
+  Bb (http://static.chartbeat.com/js/chartbeat_video.js:25)
+  L (http://static.chartbeat.com/js/chartbeat_video.js:36)
+  Qc (http://static.chartbeat.com/js/chartbeat_video.js:109)
+  md (http://static.chartbeat.com/js/chartbeat_video.js:129)
+  ld (http://static.chartbeat.com/js/chartbeat_video.js:127)
+  vd (http://static.chartbeat.com/js/chartbeat_video.js:127)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
+  wc (http://static.chartbeat.com/js/chartbeat_video.js:130)
+  hd (http://static.chartbeat.com/js/chartbeat_video.js:126)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:133)
+[ERROR - 2017-04-17T09:09:25.450Z] Session [8ad07260-234d-11e7-be29-792b51b68fcb] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Win.document.URL')
+[ERROR - 2017-04-17T09:09:25.450Z] Session [8ad07260-234d-11e7-be29-792b51b68fcb] - page.onError - stack:
+  PreInit (http://content.adservingfactory.com/LibBE.js:1)
+  (anonymous function) (http://content.adservingfactory.com/LibBE.js:1)
+[ERROR - 2017-04-17T09:09:26.427Z] Session [8ad07260-234d-11e7-be29-792b51b68fcb] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.a.re')
+[ERROR - 2017-04-17T09:09:26.427Z] Session [8ad07260-234d-11e7-be29-792b51b68fcb] - page.onError - stack:
+  ha (http://static.chartbeat.com/js/chartbeat_video.js:83)
+  S (http://static.chartbeat.com/js/chartbeat_video.js:81)
+  J (http://static.chartbeat.com/js/chartbeat_video.js:110)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
+  Bb (http://static.chartbeat.com/js/chartbeat_video.js:25)
+  L (http://static.chartbeat.com/js/chartbeat_video.js:36)
+  Qc (http://static.chartbeat.com/js/chartbeat_video.js:109)
+  md (http://static.chartbeat.com/js/chartbeat_video.js:129)
+  ld (http://static.chartbeat.com/js/chartbeat_video.js:127)
+  vd (http://static.chartbeat.com/js/chartbeat_video.js:127)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
+  wc (http://static.chartbeat.com/js/chartbeat_video.js:130)
+  hd (http://static.chartbeat.com/js/chartbeat_video.js:126)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:133)
+[INFO  - 2017-04-17T09:09:26.461Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-04-17T09:09:47.330Z] GhostDriver - Main - running on port 9046
+[INFO  - 2017-04-17T09:09:47.534Z] Session [9ad67790-234d-11e7-9912-116a401924e7] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-17T09:09:47.534Z] Session [9ad67790-234d-11e7-9912-116a401924e7] - page.customHeaders:  - {}
+[INFO  - 2017-04-17T09:09:47.534Z] Session [9ad67790-234d-11e7-9912-116a401924e7] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-17T09:09:47.534Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9ad67790-234d-11e7-9912-116a401924e7
+[ERROR - 2017-04-17T09:09:51.492Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1492420191491
+[INFO  - 2017-04-17T09:11:28.187Z] GhostDriver - Main - running on port 45478
+[INFO  - 2017-04-17T09:11:28.357Z] Session [d6eed600-234d-11e7-b4cb-cb53031975f6] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-17T09:11:28.357Z] Session [d6eed600-234d-11e7-b4cb-cb53031975f6] - page.customHeaders:  - {}
+[INFO  - 2017-04-17T09:11:28.357Z] Session [d6eed600-234d-11e7-b4cb-cb53031975f6] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-17T09:11:28.357Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d6eed600-234d-11e7-b4cb-cb53031975f6
+[ERROR - 2017-04-17T09:11:30.367Z] Session [d6eed600-234d-11e7-b4cb-cb53031975f6] - page.onError - msg: TypeError: null is not an object (evaluating 'f.parentNode.insertBefore')
+[ERROR - 2017-04-17T09:11:30.367Z] Session [d6eed600-234d-11e7-b4cb-cb53031975f6] - page.onError - stack:
+  l (http://stirileprotv.ro/:1)
+[ERROR - 2017-04-17T09:11:31.978Z] Session [d6eed600-234d-11e7-b4cb-cb53031975f6] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.a.re')
+[ERROR - 2017-04-17T09:11:31.978Z] Session [d6eed600-234d-11e7-b4cb-cb53031975f6] - page.onError - stack:
+  ha (http://static.chartbeat.com/js/chartbeat_video.js:83)
+  S (http://static.chartbeat.com/js/chartbeat_video.js:81)
+  J (http://static.chartbeat.com/js/chartbeat_video.js:110)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
+  Bb (http://static.chartbeat.com/js/chartbeat_video.js:25)
+  L (http://static.chartbeat.com/js/chartbeat_video.js:36)
+  Qc (http://static.chartbeat.com/js/chartbeat_video.js:109)
+  md (http://static.chartbeat.com/js/chartbeat_video.js:129)
+  ld (http://static.chartbeat.com/js/chartbeat_video.js:127)
+  vd (http://static.chartbeat.com/js/chartbeat_video.js:127)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
+  wc (http://static.chartbeat.com/js/chartbeat_video.js:130)
+  hd (http://static.chartbeat.com/js/chartbeat_video.js:126)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:133)
+[ERROR - 2017-04-17T09:11:32.874Z] Session [d6eed600-234d-11e7-b4cb-cb53031975f6] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Win.document.URL')
+[ERROR - 2017-04-17T09:11:32.875Z] Session [d6eed600-234d-11e7-b4cb-cb53031975f6] - page.onError - stack:
+  PreInit (http://content.adservingfactory.com/LibBE.js:1)
+  (anonymous function) (http://content.adservingfactory.com/LibBE.js:1)
+[ERROR - 2017-04-17T09:11:33.870Z] Session [d6eed600-234d-11e7-b4cb-cb53031975f6] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.a.re')
+[ERROR - 2017-04-17T09:11:33.870Z] Session [d6eed600-234d-11e7-b4cb-cb53031975f6] - page.onError - stack:
+  ha (http://static.chartbeat.com/js/chartbeat_video.js:83)
+  S (http://static.chartbeat.com/js/chartbeat_video.js:81)
+  J (http://static.chartbeat.com/js/chartbeat_video.js:110)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
+  Bb (http://static.chartbeat.com/js/chartbeat_video.js:25)
+  L (http://static.chartbeat.com/js/chartbeat_video.js:36)
+  Qc (http://static.chartbeat.com/js/chartbeat_video.js:109)
+  md (http://static.chartbeat.com/js/chartbeat_video.js:129)
+  ld (http://static.chartbeat.com/js/chartbeat_video.js:127)
+  vd (http://static.chartbeat.com/js/chartbeat_video.js:127)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:9)
+  wc (http://static.chartbeat.com/js/chartbeat_video.js:130)
+  hd (http://static.chartbeat.com/js/chartbeat_video.js:126)
+  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:133)
+[INFO  - 2017-04-17T09:11:33.905Z] ShutdownReqHand - _handle - About to shutdown
