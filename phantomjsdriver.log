@@ -170,13 +170,13 @@
 [INFO  - 2017-04-17T11:34:47.352Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-17T11:39:47.354Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-17T11:44:47.353Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-tbeat.com/js/chartbeat_video.js:126)
-  (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:133)
-[INFO  - 2017-04-17T09:11:33.905Z] ShutdownReqHand - _handle - About to shutdown
-[INFO  - 2017-04-17T11:14:48.305Z] GhostDriver - Main - running on port 2634
-[INFO  - 2017-04-17T11:14:48.512Z] Session [11c4e0b0-235f-11e7-85b9-553a67bec002] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-04-17T11:14:48.512Z] Session [11c4e0b0-235f-11e7-85b9-553a67bec002] - page.customHeaders:  - {}
-[INFO  - 2017-04-17T11:14:48.513Z] Session [11c4e0b0-235f-11e7-85b9-553a67bec002] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-17T11:49:47.354Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T11:54:47.354Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T11:59:47.353Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T12:04:47.354Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T12:09:47.359Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-17T12:14:47.359Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+48.513Z] Session [11c4e0b0-235f-11e7-85b9-553a67bec002] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
 [INFO  - 2017-04-17T11:14:48.513Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 11c4e0b0-235f-11e7-85b9-553a67bec002
 [ERROR - 2017-04-17T11:14:51.147Z] Session [11c4e0b0-235f-11e7-85b9-553a67bec002] - page.onError - msg: TypeError: null is not an object (evaluating 'f.parentNode.insertBefore')
 [ERROR - 2017-04-17T11:14:51.147Z] Session [11c4e0b0-235f-11e7-85b9-553a67bec002] - page.onError - stack:
@@ -263,3 +263,16 @@ tbeat.com/js/chartbeat_video.js:126)
   hd (http://static.chartbeat.com/js/chartbeat_video.js:126)
   (anonymous function) (http://static.chartbeat.com/js/chartbeat_video.js:133)
 [INFO  - 2017-04-17T11:44:50.660Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-04-17T12:12:03.346Z] GhostDriver - Main - running on port 2980
+[INFO  - 2017-04-17T12:12:03.590Z] Session [113c2f10-2367-11e7-bfc0-81dcbbda502e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-17T12:12:03.590Z] Session [113c2f10-2367-11e7-bfc0-81dcbbda502e] - page.customHeaders:  - {}
+[INFO  - 2017-04-17T12:12:03.590Z] Session [113c2f10-2367-11e7-bfc0-81dcbbda502e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-17T12:12:03.590Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 113c2f10-2367-11e7-bfc0-81dcbbda502e
+[ERROR - 2017-04-17T12:12:05.873Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1492431125835
+[INFO  - 2017-04-17T12:12:06.224Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-04-17T12:13:36.146Z] GhostDriver - Main - running on port 30464
+[INFO  - 2017-04-17T12:13:36.389Z] Session [488c3000-2367-11e7-8222-01c0d9c63079] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-17T12:13:36.389Z] Session [488c3000-2367-11e7-8222-01c0d9c63079] - page.customHeaders:  - {}
+[INFO  - 2017-04-17T12:13:36.389Z] Session [488c3000-2367-11e7-8222-01c0d9c63079] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-17T12:13:36.389Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 488c3000-2367-11e7-8222-01c0d9c63079
+[INFO  - 2017-04-17T12:13:39.186Z] ShutdownReqHand - _handle - About to shutdown

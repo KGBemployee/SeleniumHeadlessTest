@@ -26,10 +26,9 @@ public class SeleniumHeadlessTest2 {
 
     @Test
     public void testPage(){
-        driver.get("http://stirileprotv.ro");
-        driver.findElement(By.xpath(".//a[@title='Politic']")).click();
-        driver.findElement(By.xpath("(.//a[contains(@title,'Mesajul lui Klaus Iohannis de Paste pentru romanii din tara si din diaspora. Ce urari au publicat pe Facebook politicienii')])[1]")).click();
-        Assert.assertTrue("the page title is not as expected", driver.getTitle().contains("Mesajul lui Klaus Iohannis de Paste "));
+        driver.get("http://www.seleniumhq.org/");
+        driver.findElement(By.xpath(".//a[@title='Technical references and guides']")).click();
+        Assert.assertTrue("the page title is not as expected", driver.getTitle().contains("Selenium Documentation "));
     }
 
     @After
